@@ -8,6 +8,9 @@ Working with Java, I enhanced my programming skills, particularly in implementin
 Overall, this project not only improved my technical skills but also enhanced my ability to design, implement, and manage complex software systems. It provided me with a comprehensive understanding of how to build robust and scalable applications using established design patterns and modern programming practices. These learnings have laid a solid foundation for my future endeavors in software development.
 
 
+http://localhost:63342/html-css-js-portfolio-tutorial-2-main/index.html?_ijt=o7uanoifijg9vj3ep36c4b2on9
+
+
 
 
 
