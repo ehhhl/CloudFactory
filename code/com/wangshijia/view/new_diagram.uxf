@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>0</y>
+      <w>513</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::CapacityFocusManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-instance: CapacityFocusManagementView
+-table: JTable
+-queryButton, resetButton, addButton, deleteButton, modifyButton, changeButton: JButton
+-tree: JTree
+--
++CapacityFocusManagementView(): ctor
++main(String[] args): void
++getName(): String
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++changeButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;CapacityFocus&gt; capacityFocuses): void
++getInstance(): CapacityFocusManagementView
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>0</y>
+      <w>324</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.factoryAdmin::MyDeviceView
+--
+-contentPane: JPanel
+-table: JTable
+-instance: MyDeviceView
+-addButton, deleteButton, changeButton: JButton
+-tree: JTree
+-resetButton: JButton
+-modifyButton: JButton
+--
++MyDeviceView(): ctor
++main(String[] args): void
++getInstance(): MyDeviceView
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++changeButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;CapacityFocus&gt; capacityFocuses): void
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1134</y>
+      <w>432</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::CapacityFocusCateManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-instance: CapacityFocusCateManagementView
+-table: JTable
+-queryButton, resetButton, addButton, deleteButton, modifyButton: JButton
+-tree: JTree
+--
++CapacityFocusCateManagementView(): ctor
++main(String[] args): void
++getName(): String
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;CapacityFocusCate&gt; deviceCates): void
++getInstance(): CapacityFocusCateManagementView
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>477</y>
+      <w>432</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::ProductCateManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-instance: ProductCateManagementView
+-table: JTable
+-queryButton, resetButton, addButton, deleteButton, modifyButton: JButton
+-tree: JTree
+--
++ProductCateManagementView(): ctor
++main(String[] args): void
++getName(): String
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;ProductCate&gt; productCates): void
++getInstance(): ProductCateManagementView
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>783</x>
+      <y>351</y>
+      <w>432</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::ProductManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-instance: ProductManagementView
+-table: JTable
+-queryButton, resetButton, addButton, deleteButton, modifyButton: JButton
+-tree: JTree
+--
++ProductManagementView(): ctor
++main(String[] args): void
++getName(): String
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;Product&gt; products): void
++getInstance(): ProductManagementView
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>1224</y>
+      <w>432</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::UserManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-instance: UserManagementView
+-table: JTable
+-queryButton, resetButton, addButton, deleteButton, modifyButton: JButton
+-tree: JTree
+--
++UserManagementView(): ctor
++main(String[] args): void
++getName(): String
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++deleteButtonListener(ActionListener listener): void
++modifyButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;User&gt; users): void
++getInstance(): UserManagementView
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1476</y>
+      <w>297</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.agency::ProductView
+--
+-contentPane: JPanel
+-table: JTable
+-name: JTextField
+-queryButton: JButton
+-resetButton: JButton
+-instance: ProductView
+-tree: JTree
+--
++ProductView(): ctor
++main(String[] args): void
++queryButtonListener(ActionListener listener): void
++resetButtonListener(ActionListener listener): void
++getName(): String
++setTable(List&lt;Product&gt; products): void
++getTable(): JTable
++treeListener(TreeSelectionListener listener): void
++getInstance(): ProductView
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>819</y>
+      <w>351</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.superAdmin::FactoryManagementView
+--
+-contentPane: JPanel
+-name: JTextField
+-table: JTable
+-instance: FactoryManagementView
+-queryButton, reflashButton, changeButton: JButton
+-tree: JTree
+--
++FactoryManagementView(): ctor
++main(String[] args): void
++getName(): String
++setTable(List&lt;User&gt; users, List&lt;Factory&gt; factories): void
++getInstance(): FactoryManagementView
++queryButtonListener(ActionListener listener): void
++reflashButtonListener(ActionListener listener): void
++changeButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>351</y>
+      <w>306</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.agency::OrderSubmissionView
+--
+-contentPane: JPanel
+-table: JTable
+-tree: JTree
+-addButton: JButton
+-instance: OrderSubmissionView
+-addRowButton: JButton
+--
++OrderSubmissionView(): ctor
++main(String[] args): void
++getInstance(): OrderSubmissionView
++addButtonListener(ActionListener listener): void
++addRowButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>963</y>
+      <w>306</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.common::LoginView
+--
+-contentPane: JPanel
+-textField: JTextField
+-passwordField: JPasswordField
+-loginButton: JButton
+-registerButton: JButton
+-instance: LoginView
+--
++LoginView(): ctor
++main(String[] args): void
++getInstance(): LoginView
++loginButtonListener(ActionListener listener): void
++registerButtonListener(ActionListener listener): void
++getUserName(): String
++getPassword(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>693</y>
+      <w>297</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.factoryAdmin::NewOrderView
+--
+-contentPane: JPanel
+-table: JTable
+-instance: NewOrderView
+-tree: JTree
+-resetButton, addButton: JButton
+--
++NewOrderView(): ctor
++main(String[] args): void
++getInstance(): NewOrderView
++resetButtonListener(ActionListener listener): void
++addButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;Order&gt; orders): void
++getTable(): JTable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>621</y>
+      <w>324</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.factoryAdmin::RentDeviceView
+--
+-contentPane: JPanel
+-table: JTable
+-tree: JTree
+-rentButton, resetButton: JButton
+-instance: RentDeviceView
+--
++RentDeviceView(): ctor
++main(String[] args): void
++getInstance(): RentDeviceView
++resetButtonListener(ActionListener listener): void
++rentButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++getTable(): JTable
++setTable(List&lt;CapacityFocus&gt; capacityFocuses): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>387</x>
+      <y>882</y>
+      <w>288</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.factoryAdmin::MyOrderView
+--
+-contentPane: JPanel
+-table: JTable
+-instance: MyOrderView
+-tree: JTree
+-resetButton: JButton
+--
++MyOrderView(): ctor
++main(String[] args): void
++getInstance(): MyOrderView
++resetButtonListener(ActionListener listener): void
++treeListener(TreeSelectionListener listener): void
++setTable(List&lt;Order&gt; orders): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>342</w>
+      <h>468</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.view.common::RegistrationView
+--
+-contentPane: JPanel
+-userName: JTextField
+-password: JTextField
+-name: JTextField
+-contact: JTextField
+-factoryName: JTextField
+-factoryDescription: JTextField
+-buttonGroup: ButtonGroup
+-radioButton0, radioButton1: JRadioButton
+-registerButton, returnButton: JButton
+-instance: RegistrationView
+-lblNewLabel_7: JLabel
+--
++RegistrationView(): ctor
++getUserName(): String
++getPassword(): String
++getName(): String
++getContact(): String
++getFactoryName(): String
++getFactoryDescription(): String
++getRole(): String
++getJFactorName(): JTextField
++getJFactorDescription(): JTextField
++main(String[] args): void
++getInstance(): RegistrationView
++registerButtonListener(ActionListener listener): void
++returnButtonListener(ActionListener listener): void
++radioButton0ButtonListener(ActionListener listener): void
++radioButton1ButtonListener(ActionListener listener): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

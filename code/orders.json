@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "productID": "PNO20230614150317086",
+    "agencyUserName": "distributor",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 2,
+    "productID": "PNO20230613210127835",
+    "agencyUserName": "distributor",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 3,
+    "productID": "PNO20230614150317086",
+    "agencyUserName": "distributor",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 4,
+    "productID": "PNO20230613210127835",
+    "agencyUserName": "distributor",
+    "factoryName": ""
+  }
+]

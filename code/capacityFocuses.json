@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "capacityFocusID": "asdsd",
+    "capacityFocusName": "asssssas",
+    "cateName": "1类",
+    "cateSize": "50*50",
+    "cateStatus": "关机",
+    "description": "5465456",
+    "rentStatus": "未被租用",
+    "factoryName": ""
+  },
+  {
+    "id": 2,
+    "capacityFocusID": "asdddasd",
+    "capacityFocusName": "adassss",
+    "cateName": "1类",
+    "cateSize": "50*50",
+    "cateStatus": "开机",
+    "description": "asdasd",
+    "rentStatus": "已被租用",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 3,
+    "capacityFocusID": "asdsdsssss",
+    "capacityFocusName": "adassss",
+    "cateName": "1类",
+    "cateSize": "50*50",
+    "cateStatus": "开机",
+    "description": "asdasd",
+    "rentStatus": "工厂设备",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 4,
+    "capacityFocusID": "DNO20230613210854073",
+    "capacityFocusName": "sadasdds",
+    "cateName": "2类",
+    "cateSize": "50*50",
+    "cateStatus": "开机",
+    "description": "asdasd",
+    "rentStatus": "工厂设备",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 5,
+    "capacityFocusID": "DNO20230613211956445",
+    "capacityFocusName": "ssss",
+    "cateName": "1类",
+    "cateSize": "46",
+    "cateStatus": "开机",
+    "description": "asjkfb",
+    "rentStatus": "工厂设备",
+    "factoryName": "ZhaoFactory"
+  },
+  {
+    "id": 6,
+    "capacityFocusID": "DNO20230614162101165",
+    "capacityFocusName": "DQEFCQ",
+    "cateName": "3类",
+    "cateSize": "90*10",
+    "cateStatus": "开机",
+    "description": "snadkvno",
+    "rentStatus": "已被租用",
+    "factoryName": "QianFactory"
+  }
+]

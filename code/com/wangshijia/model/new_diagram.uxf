@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>450</w>
+      <h>550</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::CapacityFocus
+--
+-id: int
+-capacityFocusID: String
+-capacityFocusName: String
+-cateName: String
+-cateSize: String
+-cateStatus: CateStatus
+-description: String
+-rentStatus: String
+-factoryName: String
+--
++CapacityFocus(int id, String capacityFocusName, String capacityFocusID, String cateName, String cateSize, CateStatus cateStatus, String description, String rentStatus, String factoryName): ctor
++CapacityFocus(): ctor
++getCateStatus(): CateStatus
++setCateStatus(CateStatus cateStatus): void
++getRentStatus(): String
++setRentStatus(String rentStatus): void
++getFactoryName(): String
++setFactoryName(String factoryName): void
++getId(): int
++getCapacityFocusID(): String
++getCapacityFocusName(): String
++getCateName(): String
++getCateSize(): String
++getDescription(): String
++setId(int id): void
++setCapacityFocusID(String capacityFocusID): void
++setCapacityFocusName(String capacityFocusName): void
++setCateName(String cateName): void
++setCateSize(String cateSize): void
++setDescription(String description): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>0</y>
+      <w>500</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::User
+--
+-id: int
+-userName: String
+-password: String
+-name: String
+-contact: String
+-role: UserRole
+-factoryName: String
+-factoryDescription: String
++staticFactoryName = "": String
++staticAgencyUserNameString = "": String
+--
++User(int id, String userName, String password, String name, String contact, UserRole role, String factoryName, String factoryDescription): ctor
++User(): ctor
++getId(): int
++setId(int id): void
++setUserName(String userName): void
++setName(String name): void
++setContact(String contact): void
++setRole(UserRole role): void
++getUserName(): String
++getName(): String
++getContact(): String
++getRole(): UserRole
++getPassword(): String
++setPassword(String password): void
++getFactoryName(): String
++setFactoryName(String factoryName): void
++getFactoryDescription(): String
++setFactoryDescription(String factoryDescription): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>560</y>
+      <w>450</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::Product
+--
+-id: int
+-productID: String
+-productName: String
+-cateName: String
+-cateSize: String
+-description: String
+--
++Product(int id, String productID, String productName, String cateName, String cateSize, String description): ctor
++Product(): ctor
++getId(): int
++getProductID(): String
++getProductName(): String
++getCateName(): String
++getCateSize(): String
++getDescription(): String
++setId(int id): void
++setProductID(String productID): void
++setProductName(String productName): void
++setCateName(String cateName): void
++setCateSize(String cateSize): void
++setDescription(String description): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>570</y>
+      <w>530</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::Order
+--
+-id: int
+-productID: String
+-agencyUserName: String
+-factoryName: String
+--
++Order(int id, String productID, String agencyUserName, String factoryName): ctor
++getProductID(): String
++setProductID(String productID): void
++getAgencyUserName(): String
++setAgencyUserName(String agencyUserName): void
++setId(int id): void
++setFactoryName(String factoryName): void
++getId(): int
++getFactoryName(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>900</y>
+      <w>330</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::CapacityFocusCate
+--
+-id: int
+-cateName: String
+--
++CapacityFocusCate(int id, String cateName): ctor
++CapacityFocusCate(): ctor
++getCateName(): String
++setId(int id): void
++setCateName(String cateName): void
++getId(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>970</y>
+      <w>350</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::Factory
+--
+-id: int
+-name: String
+-status: FactoryStatus
+--
++Factory(int id, String name, FactoryStatus status): ctor
++getId(): int
++getName(): String
++getStatus(): FactoryStatus
++setStatus(FactoryStatus status): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>970</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.model::ProductCate
+--
+-id: int
+-cateName: String
+--
++ProductCate(int id, String cateName): ctor
++ProductCate(): ctor
++getCateName(): String
++setId(int id): void
++setCateName(String cateName): void
++getId(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

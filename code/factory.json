@@ -1,0 +1,32 @@
+[
+  {
+    "id": 6,
+    "name": "ZhaoFactory",
+    "status": "正常"
+  },
+  {
+    "id": 7,
+    "name": "QianFactory",
+    "status": "正常"
+  },
+  {
+    "id": 8,
+    "name": "SunFactory",
+    "status": "正常"
+  },
+  {
+    "id": 9,
+    "name": "ZhouFactory",
+    "status": "正常"
+  },
+  {
+    "id": 10,
+    "name": "WuFactory",
+    "status": "正常"
+  },
+  {
+    "id": 11,
+    "name": "王诗佳的工厂",
+    "status": "正常"
+  }
+]

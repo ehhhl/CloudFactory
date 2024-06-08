@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>360</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.agency::OrderServiceImpl
+--
+-FILE_PATH = "src/orders.json": String
+-orders: List&lt;Order&gt;
+-jsonFileStorage: JsonFileStorage&lt;Order&gt;
+-instance: OrderServiceImpl
+--
++OrderServiceImpl(): ctor
++getInstance(): OrderServiceImpl
++getOrders(): List&lt;Order&gt;
++saveOrders(List&lt;Order&gt; orders): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>0</y>
+      <w>360</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.common::UserServiceImpl
+--
+-FILE_PATH = "src/users.json": String
+-users: List&lt;User&gt;
+-jsonFileStorage: JsonFileStorage&lt;User&gt;
+-instance: UserServiceImpl
+--
++UserServiceImpl(): ctor
++getInstance(): UserServiceImpl
++getUsers(): List&lt;User&gt;
++saveUsers(List&lt;User&gt; users): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>0</y>
+      <w>520</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::CapacityFocusCateServiceImpl
+--
+-FILE_PATH = "src/capacityFocusCate.json": String
+-capacityFocusCates: List&lt;CapacityFocusCate&gt;
+-jsonFileStorage: JsonFileStorage&lt;CapacityFocusCate&gt;
+-instance: CapacityFocusCateServiceImpl
+--
++CapacityFocusCateServiceImpl(): ctor
++getInstance(): CapacityFocusCateServiceImpl
++getCapacityFocusCates(): List&lt;CapacityFocusCate&gt;
++saveCapacityFocusCates(List&lt;CapacityFocusCate&gt; CapacityFocusCates): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>220</y>
+      <w>440</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::CapacityFocusServiceImpl
+--
+-FILE_PATH = "src/capacityFocuses.json": String
+-capacityFocuses: List&lt;CapacityFocus&gt;
+-jsonFileStorage: JsonFileStorage&lt;CapacityFocus&gt;
+-instance: CapacityFocusServiceImpl
+--
++CapacityFocusServiceImpl(): ctor
++getInstance(): CapacityFocusServiceImpl
++getCapacityFocuses(): List&lt;CapacityFocus&gt;
++saveCapacityFocuses(List&lt;CapacityFocus&gt; capacityFocuses): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>220</y>
+      <w>400</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::FactoryServiceImpl
+--
+-FILE_PATH = "src/factory.json": String
+-factories: List&lt;Factory&gt;
+-jsonFileStorage: JsonFileStorage&lt;Factory&gt;
+-instance: FactoryServiceImpl
+--
++FactoryServiceImpl(): ctor
++getInstance(): FactoryServiceImpl
++getFactories(): List&lt;Factory&gt;
++saveFactories(List&lt;Factory&gt; factories): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>220</y>
+      <w>430</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::ProductCateServiceImpl
+--
+-FILE_PATH = "src/productCate.json": String
+-productCates: List&lt;ProductCate&gt;
+-jsonFileStorage: JsonFileStorage&lt;ProductCate&gt;
+-instance: ProductCateServiceImpl
+--
++ProductCateServiceImpl(): ctor
++getInstance(): ProductCateServiceImpl
++getProductCates(): List&lt;ProductCate&gt;
++saveProductCates(List&lt;ProductCate&gt; productCates): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>440</y>
+      <w>400</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::ProductServiceImpl
+--
+-FILE_PATH = "src/products.json": String
+-products: List&lt;Product&gt;
+-jsonFileStorage: JsonFileStorage&lt;Product&gt;
+-instance: ProductServiceImpl
+--
++ProductServiceImpl(): ctor
++getInstance(): ProductServiceImpl
++getProducts(): List&lt;Product&gt;
++saveProducts(List&lt;Product&gt; products): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>440</y>
+      <w>380</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.service.impl.superAmdin::UserServiceImpl
+--
+-FILE_PATH = "src/users.json": String
+-users: List&lt;User&gt;
+-jsonFileStorage: JsonFileStorage&lt;User&gt;
+-instance: UserServiceImpl
+--
++UserServiceImpl(): ctor
++getInstance(): UserServiceImpl
++getUsers(): List&lt;User&gt;
++saveUsers(List&lt;User&gt; users): void
++getMaxID(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>440</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.agency::OrderService
+--
+--
+~getOrders(): List&lt;Order&gt;
+~saveOrders(List&lt;Order&gt; orders): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>660</y>
+      <w>300</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.common::UserService
+--
+--
+~getUsers(): List&lt;User&gt;
+~saveUsers(List&lt;User&gt; users): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>660</y>
+      <w>520</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::CapacityFocusCateService
+--
+--
+~getCapacityFocusCates(): List&lt;CapacityFocusCate&gt;
+~saveCapacityFocusCates(List&lt;CapacityFocusCate&gt; CapacityFocusCates): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>550</y>
+      <w>430</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::CapacityFocusService
+--
+--
+~getCapacityFocuses(): List&lt;CapacityFocus&gt;
+~saveCapacityFocuses(List&lt;CapacityFocus&gt; CapacityFocus): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>780</y>
+      <w>340</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::FactoryService
+--
+--
+~getFactories(): List&lt;Factory&gt;
+~saveFactories(List&lt;Factory&gt; factories): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>660</y>
+      <w>390</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::ProductCateService
+--
+--
+~getProductCates(): List&lt;ProductCate&gt;
+~saveProductCates(List&lt;ProductCate&gt; ProductCates): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>780</y>
+      <w>340</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::ProductService
+--
+--
+~getProducts(): List&lt;Product&gt;
+~saveProducts(List&lt;Product&gt; products): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>780</y>
+      <w>330</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.wangshijia.service.superAdmin::UserService
+--
+--
+~getUsers(): List&lt;User&gt;
+~saveUsers(List&lt;User&gt; users): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

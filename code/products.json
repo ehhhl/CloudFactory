@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4,
+    "productID": "PNO20230613210127835",
+    "productName": "巴龙",
+    "cateName": "2类",
+    "cateSize": "90*90",
+    "description": "通信芯片"
+  },
+  {
+    "id": 5,
+    "productID": "PNO20230614150317086",
+    "productName": "澎湃S1",
+    "cateName": "3类",
+    "cateSize": "198*12",
+    "description": "手机Soc"
+  },
+  {
+    "id": 6,
+    "productID": "PNO20230614164713264",
+    "productName": "hasofniu",
+    "cateName": "4类",
+    "cateSize": "20*128",
+    "description": "哈哈哈哈·"
+  }
+]

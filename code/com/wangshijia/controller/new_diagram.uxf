@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>300</y>
+      <w>390</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.agency::AgencyProductController
+--
+-view: ProductView
+--
++AgencyProductController(ProductView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>310</y>
+      <w>400</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.agency::OrderSubmissionController
+--
+-view: OrderSubmissionView
+--
++OrderSubmissionController(OrderSubmissionView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>100</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.common::RegisterController
+--
+-view: RegistrationView
+--
++RegisterController(RegistrationView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>110</y>
+      <w>340</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.common::LoginController
+--
+-view: LoginView
+--
++LoginController(LoginView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>530</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.factoryAdmin::MyOrderController
+--
+-view: MyOrderView
+--
++MyOrderController(MyOrderView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>430</y>
+      <w>390</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.factoryAdmin::MyDeviceController
+--
+-view: MyDeviceView
+--
++MyDeviceController(MyDeviceView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>410</y>
+      <w>390</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.factoryAdmin::NewOrderController
+--
+-view: NewOrderView
+--
++NewOrderController(NewOrderView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>650</y>
+      <w>400</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.factoryAdmin::RentDeviceConrtoller
+--
+-view: RentDeviceView
+--
++RentDeviceConrtoller(RentDeviceView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>650</y>
+      <w>520</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::CapacityFocusCateController
+--
+-view: CapacityFocusCateManagementView
+--
++CapacityFocusCateController(CapacityFocusCateManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>540</y>
+      <w>460</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::CapacityFocusController
+--
+-view: CapacityFocusManagementView
+--
++CapacityFocusController(CapacityFocusManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>0</y>
+      <w>370</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::FactoryController
+--
+-view: FactoryManagementView
+--
++FactoryController(FactoryManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>210</y>
+      <w>430</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::ProductCateController
+--
+-view: ProductCateManagementView
+--
++ProductCateController(ProductCateManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>200</y>
+      <w>370</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::ProductController
+--
+-view: ProductManagementView
+--
++ProductController(ProductManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>0</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.wangshijia.controller.superAdmin::UserController
+--
+-view: UserManagementView
+--
++UserController(UserManagementView view): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

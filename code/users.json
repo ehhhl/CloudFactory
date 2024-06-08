@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "userName": "admin",
+    "password": "admin123",
+    "name": "Smith",
+    "contact": "admin@example.com",
+    "role": "超级管理员",
+    "factoryName": "",
+    "factoryDescription": ""
+  },
+  {
+    "id": 2,
+    "userName": "factoryadmin",
+    "password": "factoryadmin123",
+    "name": "赵一",
+    "contact": "factoryadmin@example.com",
+    "role": "云工厂",
+    "factoryName": "ZhaoFactory",
+    "factoryDescription": "山东 生产芯片"
+  },
+  {
+    "id": 3,
+    "userName": "distributor",
+    "password": "distributor123",
+    "name": "Buffett",
+    "contact": "distributor@example.com",
+    "role": "经销商",
+    "factoryName": "",
+    "factoryDescription": ""
+  },
+  {
+    "id": 4,
+    "userName": "aadd",
+    "password": "aadd",
+    "name": "钱二",
+    "contact": "asdsad",
+    "role": "云工厂",
+    "factoryName": "QianFactory",
+    "factoryDescription": "陕西 生产芯片"
+  },
+  {
+    "id": 5,
+    "userName": "sssss",
+    "password": "sssss",
+    "name": "孙三",
+    "contact": "sdsd",
+    "role": "云工厂",
+    "factoryName": "SunFactory",
+    "factoryDescription": "安徽 生产芯片"
+  },
+  {
+    "id": 6,
+    "userName": "kjkj",
+    "password": "123456",
+    "name": "周四",
+    "contact": "SKD",
+    "role": "云工厂",
+    "factoryName": "ZhouFactory",
+    "factoryDescription": "上海 生产芯片"
+  },
+  {
+    "id": 7,
+    "userName": "aaaa",
+    "password": "aa",
+    "name": "吴五",
+    "contact": "101374878101",
+    "role": "云工厂",
+    "factoryName": "WuFactory",
+    "factoryDescription": "北京 生产芯片"
+  },
+  {
+    "id": 8,
+    "userName": "anhlanjw",
+    "password": "nasconioa",
+    "name": "王诗佳",
+    "contact": "2227651405",
+    "role": "云工厂",
+    "factoryName": "王诗佳的工厂",
+    "factoryDescription": "辽宁 生产芯片"
+  }
+]
